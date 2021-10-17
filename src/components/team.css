@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 50vw;
+}
+
+.container > * {
+  margin: auto;
+}
+
+.body__addPlayer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}

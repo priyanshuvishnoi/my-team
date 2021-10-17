@@ -1,12 +1,18 @@
-.home_data{
-    margin-left: 35%;
-    padding-top: 30%;
-    font-size: 30px;
+.home_data {
+  font-size: 30px;
 }
 
-.home_button{
-    background-color: cornflowerblue;
-    margin-left: 44%;
-    font-size: 20px;
-    border-radius: 30px;
+.home_button {
+  background-color: cornflowerblue;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: auto;
+  display: block;
+}
+
+.data-block {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 //import Home from './components/Home'
-import Teams from './components/Teams';
+// import Teams from './components/Teams';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Teams />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
